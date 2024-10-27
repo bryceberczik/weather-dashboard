@@ -29,7 +29,7 @@ class WeatherService {
 
   private getCurrentDate(timestamp: number): string {
     const date = new Date(timestamp * 1000);
-    return date.toISOString().split('T')[0]; // "YYYY-MM-DD"
+    return date.toISOString().split('T')[0];
   }
 
   private async fetchJSON(query: string): Promise<any> {
@@ -61,7 +61,7 @@ class WeatherService {
 
   private async fetchLocationData(): Promise<Coordinates> {
     const data: Coordinates[] = await this.fetchJSON(this.buildGeocodeQuery());
-    return data[0] || ({} as Coordinates); // Fallback to empty object if not found
+    return data[0] || ({} as Coordinates);
   }
 
   private async fetchWeatherData(coords: Coordinates): Promise<Record<string, any>> {
