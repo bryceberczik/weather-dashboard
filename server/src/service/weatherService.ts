@@ -1,6 +1,5 @@
 import dotenv from 'dotenv';
 import historyService from './historyService.js';
-
 dotenv.config();
 
 interface Coordinates {
