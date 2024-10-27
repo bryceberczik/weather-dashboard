@@ -20,6 +20,12 @@ To set up the Weather Dashboard, start by cloning the repository with the git cl
 In order to use the application you must type in the city of your choice and you will be met with 5 days of weather and a option to delete your history or retrieve and go back.
 
 
+![Screenshot 2024-10-27 at 4 21 11 PM (3)](https://github.com/user-attachments/assets/fc39b4d1-723e-4b55-bf06-10a79a9894db)
+
+![Screenshot 2024-10-27 at 4 20 49 PM (3)](https://github.com/user-attachments/assets/d7e0cb45-775a-42c0-86a1-a5f08af8119f)
+
+![Screenshot 2024-10-27 at 4 20 59 PM (3)](https://github.com/user-attachments/assets/4b6d85b6-0b29-4a05-86ed-614970ff31c2)
+
 
 ## License
 This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
